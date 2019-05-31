@@ -1,4 +1,4 @@
-SHIFTLEFT_SEC_COLLECT_ATTACK_INFO= true sl run -- java -jar target/hello-shiftleft-0.0.1.jar &
+SHIFTLEFT_SEC_COLLECT_ATTACK_INFO=true sl run -- java -jar target/hello-shiftleft-0.0.1.jar &
 sleep 60
 curl http://localhost:8081/customers/1
 curl http://localhost:8081/customers/
